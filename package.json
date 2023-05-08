@@ -1,0 +1,41 @@
+{
+  "name": "express-api-boilerplate",
+  "version": "1.0.0",
+  "description": "NodeJS Express boilerplate for building API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node ./src/server.js",
+    "dev": "cross-env NODE_ENV=development nodemon ./src/server.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.7.0",
+    "express-useragent": "^1.0.15",
+    "helmet": "^6.0.1",
+    "hpp": "^0.2.3",
+    "http-status": "^1.6.2",
+    "joi": "^17.9.2",
+    "mongoose": "^7.1.0",
+    "morgan": "^1.10.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "mongodb",
+    "REST",
+    "API",
+    "boilerplate"
+  ],
+  "author": "muhibullah",
+  "license": "MIT"
+}
